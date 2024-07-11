@@ -28,7 +28,7 @@ function App() {
       setAlert({
         show: true,
         type: "danger",
-        msg: "title and date can not be empty",
+        msg: "enter both date and title",
       });
     } else if (isEdit) {
       // edit
@@ -62,7 +62,7 @@ function App() {
       setAlert({
         show: true,
         type: "success",
-        msg: "added new to do",
+        msg: "successfully added new to do",
       });
     }
   };

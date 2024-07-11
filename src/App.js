@@ -28,7 +28,7 @@ function App() {
       setAlert({
         show: true,
         type: "danger",
-        msg: "both title and date needs to be filled",
+        msg: "enter both date and title",
       });
     } else if (isEdit) {
       // edit
@@ -62,7 +62,7 @@ function App() {
       setAlert({
         show: true,
         type: "success",
-        msg: "new to do added",
+        msg: "successfully added new to do",
       });
     }
   };
